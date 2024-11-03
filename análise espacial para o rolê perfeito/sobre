@@ -1,0 +1,13 @@
+🗺️ Descobrindo o local para Rolê Perfeito com Python e Matemática 🐍
+
+Em um grupo de amigos é muito difícil e chato escolher um lugar para próximo rolê. Então, pensei comigo "Por que não usar Python e análise de dados para escolher o ponto ideal?"
+
+Montei esse mini-projeto, com uma análise espacial bem simplista para ajudar meu grupo a definir imparcialmente o melhor lugar para o rolê, baseado em distância, meios de transporte e, claro, um pouquinho de matemática.
+
+💡 O projeto:
+- Coletei os dados no grupo de qual bairro cada um mora e no OpenStreetMap as coordenadas (Latitude e Longitude) do centróide do bairro e compilei tudo isso em um .xlsx para não ter erro.
+- Usei Python com as bibliotecas Pandas, Geopy, Matplotlib e o Folium para ver o resultado em um mapa.
+- Calculei o “centro ideal” com base nos bairros e transportes (se tem ou não meio de transporte, ou pega carona) de meus amigos, que é uma maneira chique de dizer "onde ninguém reclama da distância". (uma média ponderada)
+- Tudo registrado em um notebook Jupyter, com o passo a passo e uma análise – se alguém quiser replicar para seu próprio rolê ou, sei lá, para outras aplicações mais sérias, vai estar aqui neste post.
+
+Dados podem facilitar a vida real (ou pelo menos dar menos trabalho pra organizar um rolê). 
